@@ -20,10 +20,11 @@ namespace Tests {
 
         private int Add(string input)
         {
-            if (input == "1")
-                return 1;
-            if (input == "2")
-                return 2;
+            var iInput = 0;
+
+            if (int.TryParse(input, out iInput))
+                return iInput;
+
             return 0;
         }
     }
