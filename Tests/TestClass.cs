@@ -9,20 +9,13 @@ namespace Tests {
     [TestFixture]
     public class TestClass {
         
-        [Test]
-        public void should_be_0_if_empty_string_inputted()
+        [TestCase("",0)]
+        [TestCase("1",1)]
+        [TestCase("2",2)]
+        public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
-            var input = "";
             var sum = Add(input);
-            Assert.That(sum, Is.EqualTo(0));
-        }
-
-        [Test]
-        public void should_return_1_if_input_is_1()
-        {
-            var input = "1";
-            var sum = Add(input);
-            Assert.That(sum, Is.EqualTo(1));
+            Assert.That(sum, Is.EqualTo(expectedSum));
         }
 
         private int Add(string input)
