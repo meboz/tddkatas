@@ -1,7 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BEE57FB3-A32E-4593-BE8A-2E812760A394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stuff", "stuff", "{BC65AA77-4C8F-4CE9-9B95-9BA48FC053F4}"
+	ProjectSection(SolutionItems) = preProject
+		packages.config = packages.config
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE57FB3-A32E-4593-BE8A-2E812760A394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE57FB3-A32E-4593-BE8A-2E812760A394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE57FB3-A32E-4593-BE8A-2E812760A394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE57FB3-A32E-4593-BE8A-2E812760A394}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
