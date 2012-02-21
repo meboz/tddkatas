@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using NUnit.Framework;
 
 namespace Tests {
@@ -39,21 +40,17 @@ namespace Tests {
 
         private int Add(string input)
         {
-            if(input == "")
-                input = "0";
+            var regex = new Regex(@"(\d+)");
+            var matches = regex.Matches(input);
 
-            var currentInt = 0;
-            var parseInt = 0;
+            var sum = 0;
 
-            foreach (var c in input)
+            foreach (Match match in matches)
             {
-                if(int.TryParse(c.ToString(),out parseInt))
-                {
-                    currentInt += parseInt;
-                }
+                sum += int.Parse(match.Value);
             }
 
-            return currentInt;
+            return sum;
         }
     }
 }
