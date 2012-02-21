@@ -10,10 +10,15 @@ namespace Tests {
     public class TestClass {
         
         [TestCase("",0)]
+        
+        [TestCase("0",0)]
         [TestCase("1",1)]
         [TestCase("2",2)]
+        
         [TestCase("1,2",3)]
+
         [TestCase("1,2,3",6)]
+        [TestCase("1\n,2,3",6)]
         public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
             var sum = Add(input);
@@ -24,7 +29,7 @@ namespace Tests {
         private int Add(string input)
         {
             if(input == "")
-                return 0;
+                input = "0";
 
             var iInput = 0;
 
