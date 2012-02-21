@@ -28,9 +28,6 @@ namespace Tests {
 
             var iInput = 0;
 
-            if (int.TryParse(input, out iInput))
-                return iInput;
-
             var parts = input.Split(',');
 
             foreach (var part in parts)
