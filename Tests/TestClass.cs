@@ -22,12 +22,18 @@ namespace Tests {
 
         private int Add(string input)
         {
+            if(input == "")
+                return 0;
+
             var iInput = 0;
 
             if (int.TryParse(input, out iInput))
                 return iInput;
 
-            return 0;
+            var parts = input.Split(",".ToCharArray());
+
+            return int.Parse(parts[0]) + int.Parse(parts[1]); 
+
         }
     }
 }
