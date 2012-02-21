@@ -13,6 +13,7 @@ namespace Tests {
         [TestCase("1",1)]
         [TestCase("2",2)]
         [TestCase("1,2",3)]
+        [TestCase("1,2,3",6)]
         public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
             var sum = Add(input);
@@ -30,7 +31,7 @@ namespace Tests {
             if (int.TryParse(input, out iInput))
                 return iInput;
 
-            var parts = input.Split(",".ToCharArray());
+            var parts = input.Split(',');
 
             return int.Parse(parts[0]) + int.Parse(parts[1]); 
 
