@@ -33,8 +33,12 @@ namespace Tests {
 
             var parts = input.Split(',');
 
-            return int.Parse(parts[0]) + int.Parse(parts[1]); 
+            foreach (var part in parts)
+            {
+                iInput += int.Parse(part);
+            }
 
+            return iInput;
         }
     }
 }
