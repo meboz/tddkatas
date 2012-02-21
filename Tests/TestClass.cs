@@ -20,7 +20,7 @@ namespace Tests {
 
         private int Add(string input)
         {
-            throw new NotImplementedException();
+            return 0;
         }
     }
 }
