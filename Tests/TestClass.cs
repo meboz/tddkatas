@@ -14,8 +14,15 @@ namespace Tests {
         {
             var input = "";
             var sum = Add(input);
-
             Assert.That(sum, Is.EqualTo(0));
+        }
+
+        [Test]
+        public void should_return_1_if_input_is_1()
+        {
+            var input = "1";
+            var sum = Add(input);
+            Assert.That(sum, Is.EqualTo(1));
         }
 
         private int Add(string input)
