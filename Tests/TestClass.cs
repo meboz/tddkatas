@@ -20,6 +20,9 @@ namespace Tests {
         [TestCase("1,2,3",6)]
         [TestCase("1\n,2,3",6)]
         [TestCase("1:2:3",6)]
+        [TestCase("1::2::3",6)]
+        [TestCase("1:::2:::3",6)]
+        [TestCase("1;;;2;;;3",6)]
         public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
             var sum = Add(input);
