@@ -43,14 +43,20 @@ namespace Tests {
 
             var iInput = 0;
 
-            var parts = input.Split(',',':');
+            //var parts = input.Split(',',':');
 
-            foreach (var part in parts)
+            var currentInt = 0;
+            var parseInt = 0;
+
+            foreach (var c in input)
             {
-                iInput += int.Parse(part);
+                if(int.TryParse(c.ToString(),out parseInt))
+                {
+                    currentInt += parseInt;
+                }
             }
 
-            return iInput;
+            return currentInt;
         }
     }
 }
