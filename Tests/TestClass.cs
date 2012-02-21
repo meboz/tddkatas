@@ -40,7 +40,7 @@ namespace Tests {
 
             var iInput = 0;
 
-            var parts = input.Split(',');
+            var parts = input.Split(',',':');
 
             foreach (var part in parts)
             {
