@@ -23,6 +23,7 @@ namespace Tests {
         [TestCase("1::2::3",6)]
         [TestCase("1:::2:::3",6)]
         [TestCase("1;;;2;;;3",6)]
+        [TestCase("11;;;2;;;3",16)]
         public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
             var sum = Add(input);
@@ -40,10 +41,6 @@ namespace Tests {
         {
             if(input == "")
                 input = "0";
-
-            var iInput = 0;
-
-            //var parts = input.Split(',',':');
 
             var currentInt = 0;
             var parseInt = 0;
