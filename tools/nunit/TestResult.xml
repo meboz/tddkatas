@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\cfb\output\CashFlowBuilder.Tests.dll" total="295" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-25" time="08:50:16">
+  <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.3625" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Projects\cfb\tools\nUnit" machine-name="MCBOZ" user="Byron" user-domain="MCBOZ" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Projects\cfb\output\CashFlowBuilder.Tests.dll" executed="True" result="Success" success="True" time="38.125" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="CashFlowBuilder" executed="True" result="Success" success="True" time="37.984" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="37.969" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="ApplicationServices" executed="True" result="Success" success="True" time="19.750" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AccountsGatewayFactoryTests" executed="True" result="Success" success="True" time="2.188" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="can_get_an_importer_for_an_accounting_system" executed="True" result="Success" success="True" time="2.188" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.AccountsGatewayFactoryTests.can_get_an_importer_for_an_accounting_system(XeroWeb,CashFlowBuilder.ApplicationServices.XeroWebAccountsGateway)" executed="True" result="Success" success="True" time="2.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.AccountsGatewayFactoryTests.can_get_an_importer_for_an_accounting_system(MYOB,CashFlowBuilder.ApplicationServices.NullAccountsGateway)" executed="True" result="Success" success="True" time="0.172" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ContactsImporterFactoryTests" executed="True" result="Success" success="True" time="1.734" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="can_get_an_importer_for_an_accounting_system" executed="True" result="Success" success="True" time="1.719" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(MyWorkSpace,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.219" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Xero,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(XeroWeb,CashFlowBuilder.ApplicationServices.XeroWebContactsImporter,CashFlowBuilder.Core.Value.WebImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(QuickenATD,CashFlowBuilder.ApplicationServices.QuickenATDContactsImporter,CashFlowBuilder.Core.Value.FileImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(LEAP,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.109" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Locus,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(MYOB,CashFlowBuilder.ApplicationServices.MYOBContactsImporter,CashFlowBuilder.Core.Value.FileImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(MYOBEXO,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Saasu,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.141" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(MyobParkesConstructions,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.109" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Other,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.109" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Quicken,CashFlowBuilder.ApplicationServices.QuickenContactsImporter,CashFlowBuilder.Core.Value.FileImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsImporterFactoryTests.can_get_an_importer_for_an_accounting_system(Arrow,CashFlowBuilder.ApplicationServices.NullContactsImporter,CashFlowBuilder.Core.Value.NullImportSource)" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ContactsServiceTests" executed="True" result="Success" success="True" time="3.125" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.ContactsServiceTests.create_new_contact_with_new_company" executed="True" result="Success" success="True" time="3.109" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="EmailTemplatorTests" executed="True" result="Success" success="True" time="0.938" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.EmailTemplatorTests.should_add_subportal_link_to_the_selected_invoices_tokens" executed="True" result="Success" success="True" time="0.938" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="EncryptionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.EncryptionTests.can_get_random_number" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.EncryptionTests.can_md5_a_string" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ExcelReaderTests" executed="True" result="Success" success="True" time="0.672" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.ExcelReaderTests.can_get_lines_from_file" executed="True" result="Success" success="True" time="0.672" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="FileImportSourceTests" executed="True" result="Success" success="True" time="0.953" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.FileImportSourceTests.should_get_posted_file_from_request" executed="True" result="Success" success="True" time="0.922" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.FileImportSourceTests.shuld_throw_if_files_are_not_posted" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="HelpItems" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="ShouldAuthenticateWithXeroSuggestionTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldAuthenticateWithXeroSuggestionTests.doesnt_depend_on_anything" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldAuthenticateWithXeroSuggestionTests.if_already_authenticate_dont_show_suggestion" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldAuthenticateWithXeroSuggestionTests.should_only_suggest_if_its_a_xero_ledger_type" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldAuthenticateWithXeroSuggestionTests.should_suggest_if_not_yet_authenticated" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ShouldImportLedgerSuggestionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldImportLedgerSuggestionTests.should_be_empty_if_there_is_an_import" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldImportLedgerSuggestionTests.should_depend_on_importing_companies" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldImportLedgerSuggestionTests.should_show_suggestion_if_there_is_an_import" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ShouldNominateAccountingSystemSuggestionTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldNominateAccountingSystemSuggestionTests.doesnt_depend_on_anything" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldNominateAccountingSystemSuggestionTests.should_only_suggest_if_its_a_xero_ledger_type" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.HelpItems.ShouldNominateAccountingSystemSuggestionTests.should_suggest_if_accounting_type_is_other" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="InvoiceUploaderTests" executed="True" result="Success" success="True" time="0.266" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.InvoiceUploaderTests.can_do_something" executed="True" result="Success" success="True" time="0.266" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MyobContactsAdapterTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.MyobContactsAdapterTests.can_get_contacts_from_a_company_line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.MyobContactsAdapterTests.can_get_contacts_from_a_company_line_2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MYOBContactsImporterTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.MYOBContactsImporterTests.can_import_contacts_from_posted_file" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="NullAccountsGatewayTests" executed="True" result="Success" success="True" time="7.625" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="should_have_correct_testing_folders" executed="True" result="Success" success="True" time="2.328" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.NullAccountsGatewayTests.should_have_correct_testing_folders(&quot;Inbox&quot;)" executed="True" result="Success" success="True" time="0.984" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.NullAccountsGatewayTests.should_have_correct_testing_folders(&quot;Attached&quot;)" executed="True" result="Success" success="True" time="0.469" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.NullAccountsGatewayTests.should_have_correct_testing_folders(&quot;TestAttached&quot;)" executed="True" result="Success" success="True" time="0.422" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.NullAccountsGatewayTests.should_have_correct_testing_folders(&quot;Test&quot;)" executed="True" result="Success" success="True" time="0.453" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="NullContactsImporterTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.NullContactsImporterTests.should_return_an_empty_list_of_contacts" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="QuickenContactsImporterTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.QuickenContactsImporterTests.can_import_contacts" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SaasuEntityAdapterTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.SaasuEntityAdapterTests.can_adapt_a_list_of_contacts" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.SaasuEntityAdapterTests.can_create_an_imported_ledger_from_invoices" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.SaasuEntityAdapterTests.invoices_with_same_contact_org_name_should_be_grouped" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SaasuWebServiceTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.SaasuWebServiceTests.can_get_a_list_of_contacts" executed="True" result="Success" success="True" time="0.109" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.SaasuWebServiceTests.can_get_a_list_of_invoices" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SassuIntegrationServiceTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                  <test-suite type="TestFixture" name="ServiceLocationTest" executed="True" result="Success" success="True" time="0.281" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="service_exists_on_container" executed="True" result="Success" success="True" time="0.281" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ServiceLocationTest.service_exists_on_container(XeroApi.IRepository)" executed="True" result="Success" success="True" time="0.156" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.ApplicationServices.ServiceLocationTest.service_exists_on_container(CashFlowBuilder.Core.IMongoRepository`1[CashFlowBuilder.Core.MongoAccount])" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="StreamConnectorTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.StreamConnectorTests.can_get_array_of_lines_from_stream" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroApiTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroApiTests.can_get_xero_contacts" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroApiTests.can_get_xero_invoices" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroApiTests.should_hit_the_correct_url_for_contacts" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroApiTests.should_hit_the_correct_url_for_invoices" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroAuthorisationServiceTests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroAuthorisationServiceTests.can_verify_authorisation" executed="True" result="Success" success="True" time="0.047" asserts="0" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroAuthorisationServiceTests.shold_authorise_and_return_url" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroAuthorisationServiceTests.shold_redirect_if_already_authenticated" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroEntityAdapterTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroEntityAdapterTests.can_adapt_a_list_of_contacts" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroModificationsCommandTests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroModificationsCommandTests.dont_worry_about_marking_dirty_invoices_if_no_modifications" executed="True" result="Success" success="True" time="0.156" asserts="0" />
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroModificationsCommandTests.should_check_for_account_authentication_when_accounts_are_found" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroRequestExecutorTests" executed="True" result="Success" success="True" time="0.219" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroRequestExecutorTests.can_execute_a_request" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroWebAccountsGatewayTests" executed="True" result="Success" success="True" time="0.391" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroWebAccountsGatewayTests.can_get_attachments_for_unattached_invoices" executed="True" result="Success" success="True" time="0.391" asserts="5" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="XeroWebContactsImporterTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.ApplicationServices.XeroWebContactsImporterTests.can_import_contacts_from_xero_api" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Console" executed="True" result="Success" success="True" time="0.250" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ConsoleCommandRunnerTests" executed="True" result="Success" success="True" time="0.250" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Console.ConsoleCommandRunnerTests.should_get_command_result_and_check_recency_of_last_run" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Console.ConsoleCommandRunnerTests.should_not_run_if_last_execution_time_is_within_frequency" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="6.594" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="CashFlowBuilder" executed="True" result="Success" success="True" time="6.594" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AccountsAdministrationControllerTests" executed="True" result="Success" success="True" time="0.578" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.AccountsAdministrationControllerTests.should_return_view_with_account" executed="True" result="Success" success="True" time="0.500" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.AccountsAdministrationControllerTests.should_return_view_with_accounts" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AccountsControllerTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.AccountsControllerTests.should_render_view_with_account" executed="True" result="Success" success="True" time="0.109" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CallsControllerTests" executed="True" result="Success" success="True" time="0.234" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CallsControllerTests.should_return_view" executed="True" result="Success" success="True" time="0.234" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ClientPortalControllerTests" executed="True" result="Success" success="True" time="0.297" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ClientPortalControllerTests.should_clear_open_invoices_if_specified" executed="True" result="Success" success="True" time="0.078" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ClientPortalControllerTests.should_get_portal_items_and_return_view" executed="True" result="Success" success="True" time="0.141" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ClientPortalControllerTests.should_redirect_to_show_if_company_found" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommentsControllerTests" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CommentsControllerTests.should_create_comment" executed="True" result="Success" success="True" time="0.094" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CommentsControllerTests.should_delete_comment" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CommentsControllerTests.should_return_comments_for_company" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CompaniesControllerTests" executed="True" result="Success" success="True" time="0.484" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CompaniesControllerTests.should_get_company_and_display_view" executed="True" result="Success" success="True" time="0.078" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CompaniesControllerTests.should_get_contacts_importer_and_execute_import" executed="True" result="Success" success="True" time="0.094" asserts="2" />
+                          <test-suite type="ParameterizedTest" name="should_not_be_concerned_if_no_filter_is_provided" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CompaniesControllerTests.should_not_be_concerned_if_no_filter_is_provided(null)" executed="True" result="Success" success="True" time="0.094" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CompaniesControllerTests.should_not_be_concerned_if_no_filter_is_provided(&quot;&quot;)" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CompaniesControllerTests.should_return_filtered_companies" executed="True" result="Success" success="True" time="0.141" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ContactsControllerTests" executed="True" result="Success" success="True" time="1.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.can_make_a_contact_the_primary_contact" executed="True" result="Success" success="True" time="0.422" asserts="0" />
+                          <test-suite type="ParameterizedTest" name="new_should_return_view" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.new_should_return_view(False)" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.new_should_return_view(True)" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.on_delete_should_redirect_to_request_url" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.should_make_contact_primary_if_company_doesnt_have_primary_contact" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+                          <test-suite type="ParameterizedTest" name="should_return_a_list_of_active_contacts" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.should_return_a_list_of_active_contacts(True)" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.should_return_a_list_of_active_contacts(False)" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.should_return_view_if_invalid" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ContactsControllerTests.should_save_contact_if_valid" executed="True" result="Success" success="True" time="0.125" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CorrespondenceControllerTests" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CorrespondenceControllerTests.should_return_view_with_invoices" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.CorrespondenceControllerTests.throw_exception_if_no_invoices" executed="True" result="Success" success="True" time="0.063" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="DebtorsControllerTests" executed="True" result="Success" success="True" time="0.219" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorsControllerTests.should_go_back_to_debtors_if_no_company" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorsControllerTests.should_go_to_high_priority_cue_if_missing_cue" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorsControllerTests.should_redirect_to_current_user_if_missing" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="DebtorStrategiesControllerTests" executed="True" result="Success" success="True" time="0.531" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorStrategiesControllerTests.should_create_a_new_blank_strategy_and_move_to_edit" executed="True" result="Success" success="True" time="0.141" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorStrategiesControllerTests.should_edit_if_no_invoices_are_attached" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorStrategiesControllerTests.should_get_strategies_and_return_view" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorStrategiesControllerTests.should_not_allow_create_when_there_are_not_email_templates" executed="True" result="Success" success="True" time="0.250" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.DebtorStrategiesControllerTests.should_redirect_to_show_if_invoices_are_attached" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailTemplatesContollerTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.EmailTemplatesContollerTests.should_return_list_of_templates" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="HomeControllerTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.HomeControllerTests.should_goto_dashboard_if_authed" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.HomeControllerTests.should_return_view" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.HomeControllerTests.should_return_view_if_user_is_null" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ImportControllerTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.ImportControllerTests.do_something" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InvoicesControllerTests" executed="True" result="Success" success="True" time="1.188" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.can_attach_invoices" executed="True" result="Success" success="True" time="0.109" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.can_show_the_email_for_the_next_reminder" executed="True" result="Success" success="True" time="0.250" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.editing_payment_terms_should_get_confidence_predictors_and_return_view" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.reversing_payments_should_reverse_payments" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_get_count_of_invoices_for_pager" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_get_invoices_for_model" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_notify_if_an_eror_occurs" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_notify_if_file_size_is_too_large" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_notify_if_no_content_posted" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_notify_if_no_files_posted" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-suite type="ParameterizedTest" name="should_redirect_with_page_number_invalid_if_not_supplied" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_redirect_with_page_number_invalid_if_not_supplied(-1)" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_redirect_with_page_number_invalid_if_not_supplied(0)" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.InvoicesControllerTests.should_redirect_with_page_number_invalid_if_not_supplied(null)" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="NextActionsControllerTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.NextActionsControllerTests.should_display_invoice_action_description_if_doesnt_match_existing_actions" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.NextActionsControllerTests.should_get_users_and_return_view" executed="True" result="Success" success="True" time="0.078" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="PaymentsControllerTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.PaymentsControllerTests.shoud_get_first_page_of_data" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SaasuControllerTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SaasuControllerTests.import_failure_will_notify" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SaasuControllerTests.import_ledger_failure_will_notify" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SaasuControllerTests.should_import_contacts" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SaasuControllerTests.should_set_import_data_and_continue" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SessionControllerTests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SessionControllerTests.should_check_if_account_is_active" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-suite type="ParameterizedTest" name="should_required_email_password_and_account" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SessionControllerTests.should_required_email_password_and_account(&quot;email&quot;,&quot;password&quot;,&quot;&quot;)" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SessionControllerTests.should_required_email_password_and_account(&quot;&quot;,&quot;password&quot;,&quot;account&quot;)" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                              <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SessionControllerTests.should_required_email_password_and_account(&quot;email&quot;,&quot;&quot;,&quot;account&quot;)" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.SessionControllerTests.should_try_and_find_the_account_by_short_name" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="TermsAndConditionsControllerTests" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.TermsAndConditionsControllerTests.can_show_on_agree" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.TermsAndConditionsControllerTests.should_update_account_and_redirect_home" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="XeroControllerTests" executed="True" result="Success" success="True" time="0.547" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.authorisation_errors_should_notify_user" executed="True" result="Success" success="True" time="0.109" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.should_redirect_to_home_on_error" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.should_redirect_to_url" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.should_return_to_start_if_something_goes_wrong" executed="True" result="Success" success="True" time="0.109" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.should_set_temp_data_on_successful_import" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.should_verify_auth_code_and_redirect" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Controllers.CashFlowBuilder.XeroControllerTests.verify_should_recieve_correctly_named_parameter" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="1.188" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AccountTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.AccountTests.new_account_should_have_invarient_culture" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Extensions" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="StringExtensionsTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Core.Common.Extensions.StringExtensionsTests.what_does_a_decimal_to_string_look_like" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CompanyTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.CompanyTests.company_should_not_have_valid_data_overwritten" executed="True" result="Success" success="True" time="0.016" asserts="6" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ConsoleCommandResultTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.ConsoleCommandResultTests.can_check_if_ready_for_execution_again" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ContactTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.can_adapt_a_contact" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.contact_should_get_a_company_based_on_org_name" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.contact_should_not_have_valid_data_overwritten" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-suite type="ParameterizedTest" name="contact_valid_field_should_have_a_value_and_not_a_dash" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.ContactTests.contact_valid_field_should_have_a_value_and_not_a_dash(&quot;&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Core.ContactTests.contact_valid_field_should_have_a_value_and_not_a_dash(&quot;-&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Core.ContactTests.contact_valid_field_should_have_a_value_and_not_a_dash(null)" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.firstname_should_be_valid_before_updating" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.lastname_should_be_valid_before_updating" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.phonenumber_should_be_valid_before_updating" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.position_should_be_valid_before_updating" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.should_set_fake_email_if_not_supplied" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.ContactTests.should_set_fake_phonenumber_if_not_supplied" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="InvoiceTests" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.adding_a_payment_to_an_invoice_should_propagate_amount_owing_up_to_the_company" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.amount_owing_after_confirm_import_should_never_be_less_than_0" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.collection_priority_should_be_on_track_if_not_past_terms" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.collection_priority_should_low_priority_if_action_due_and_below_threshhold" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.collection_priority_should_non_actionable_if_past_terms_and_no_action_due" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.confirm_import_will_move_pending_amount_paid_to_amount_paid" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.confirm_import_will_update_amount_owing" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.email_strategy_action_date_should_be_move_to_high_priority_is_next_step_is_null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.email_strategy_action_date_should_be_the_date_of_the_next_step" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.email_strategy_action_date_should_be_today_if_no_email_strategy" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-suite type="ParameterizedTest" name="is_actionable" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.is_actionable(LowPriority,True)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.is_actionable(NoActionRequired,False)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.is_actionable(OnTrack,False)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.is_actionable(HighPriority,True)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.not_using_email_template_if_template_is_null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.should_move_to_low_priority_only_if_not_currently_on_high_priority_action" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.InvoiceTests.when_an_invoice_is_exluded_from_debtor_days_we_have_no_confidence_the_invoice_will_be_collected" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MongoAccountTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoAccountTests.can_construct_account_with_existing_account" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoAccountTests.should_only_add_dirty_invoices_that_arent_already_there" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MongoCorrespondenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoCorrespondenceTests.reference_is_blank_if_no_invoices" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoCorrespondenceTests.reference_should_be_blank_if_related_invoices_not_found" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoCorrespondenceTests.reference_should_only_show_first_identifier_and_summary_of_others" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="MongoExpressionVisitorTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Core.MongoExpressionVisitorTests.can_get_query_from_expression" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="Value" executed="True" result="Success" success="True" time="0.906" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MyobContactTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.can_check_if_contact_is_blank" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.can_create_a_contact_from_an_array" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.can_get_email_address" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.can_get_mobile_number" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.can_get_phone_number" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.MyobContactTests.contact_chunk_must_be_right_size" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="QuickenContactTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.QuickenContactTests.can_create_a_contact_with_valid_data" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.QuickenContactTests.can_create_a_contact_with_valid_data_2" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.QuickenContactTests.contact_data_should_be_the_right_size" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SaasuContactXmlTests" executed="True" result="Success" success="True" time="0.625" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.SaasuContactXmlTests.can_deserialize_a_contact" executed="True" result="Success" success="True" time="0.422" asserts="7" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.SaasuContactXmlTests.can_deserialize_a_list" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="XeroPhonesTest" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhonesTest.can_get_phone_number" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="XeroPhoneTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-suite type="ParameterizedTest" name="should_concat_for_full_number" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhoneTests.should_concat_for_full_number(&quot;61&quot;,&quot;&quot;,&quot;34223344&quot;,&quot;6134223344&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhoneTests.should_concat_for_full_number(&quot;61&quot;,&quot;2&quot;,&quot;34223344&quot;,&quot;61234223344&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhoneTests.should_concat_for_full_number(null,&quot;2&quot;,&quot;34223344&quot;,&quot;234223344&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhoneTests.should_concat_for_full_number(&quot;&quot;,&quot;2&quot;,&quot;34223344&quot;,&quot;234223344&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="CashFlowBuilder.Tests.Core.Value.XeroPhoneTests.should_concat_for_full_number(&quot;61&quot;,null,&quot;34223344&quot;,&quot;6134223344&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="XeroResponseXmlTests" executed="True" result="Success" success="True" time="0.219" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.XeroResponseXmlTests.can_deserialize_contacts_response" executed="True" result="Success" success="True" time="0.219" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.XeroResponseXmlTests.can_deserialize_invoices_response" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                          <test-case name="CashFlowBuilder.Tests.Core.Value.XeroResponseXmlTests.can_get_phone_numbers" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="9.688" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Mappings" executed="True" result="Success" success="True" time="8.266" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AccountPersistenceTests" executed="True" result="Success" success="True" time="6.469" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountPersistenceTests.has_a_default_payment_term" executed="True" result="Success" success="True" time="1.438" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountPersistenceTests.has_many_confidence_predictors" executed="True" result="Success" success="True" time="0.094" asserts="8" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountPersistenceTests.has_many_email_strategies" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountPersistenceTests.has_many_users" executed="True" result="Success" success="True" time="0.031" asserts="8" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountPersistenceTests.IsMapped" executed="True" result="Success" success="True" time="0.109" asserts="19" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AccountsModulesPersistenceTests" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.AccountsModulesPersistenceTests.belongs_to_an_account_and_a_module" executed="True" result="Success" success="True" time="0.125" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ActionPersistenceTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ActionPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.063" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ActionPersistenceTests.should_count_associated_calls" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CallsPersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CallsPersistenceTests.is_mapped" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ClientPortalItemTests" executed="True" result="Success" success="True" time="0.422" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ClientPortalItemTests.belongs_to_a_company" executed="True" result="Success" success="True" time="0.422" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommentsPersistenceTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CommentsPersistenceTests.belongs_to_a_company" executed="True" result="Success" success="True" time="0.078" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CompanyPersistenceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CompanyPersistenceTests.amount_owing_should_be_mapped" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CompanyPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.016" asserts="21" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CompanyPersistenceTests.can_save_reversals_added_to_list" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ConfidencePredictorPersistenceTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ConfidencePredictorPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ConfidencePredictorPersistenceTests.has_an_emailstrategystep_count" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ConfidencePredictorPersistenceTests.has_an_invoice_count" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ContactPersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ContactPersistenceTests.belongs_to_a_company" executed="True" result="Success" success="True" time="0.016" asserts="12" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CreditHoldReasonPersistenceTest" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.CreditHoldReasonPersistenceTest.belongs_to_an_account" executed="True" result="Success" success="True" time="0.016" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailStrategyPersistenceTests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.EmailStrategyPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.063" asserts="6" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.EmailStrategyPersistenceTests.blank_strategy_can_be_save" executed="True" result="Success" success="True" time="0.125" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailStrategyStepPersistenceTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.EmailStrategyStepPersistenceTests.belongs_to_an_email_strategy" executed="True" result="Success" success="True" time="0.047" asserts="8" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailTemplatePersistenceTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.EmailTemplatePersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.031" asserts="6" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.EmailTemplatePersistenceTests.can_count_of_email_strategy_steps_using_template" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="HistoricalDebtorDayPersistenceTest" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.HistoricalDebtorDayPersistenceTest.belongs_to_an_account" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InvoicePersistenceTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.InvoicePersistenceTests.amount_owing_should_be_persisted" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.InvoicePersistenceTests.amount_owing_should_be_the_amount_less_the_amount_paid" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.InvoicePersistenceTests.belongs_to_a_company" executed="True" result="Success" success="True" time="0.031" asserts="20" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InvoiceRecoveryStepPersistenceTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.InvoiceRecoveryStepPersistenceTests.belongs_to_an_invoice" executed="True" result="Success" success="True" time="0.094" asserts="9" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ModulePersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ModulePersistenceTests.is_mapped" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="PaymentPersistenceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.PaymentPersistenceTests.belongs_to_an_invoice" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.PaymentPersistenceTests.deleted_payments_are_completely_ignored" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="PaymentTermsPersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.PaymentTermsPersistenceTests.IsMapped" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ReversalPersistenceTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.ReversalPersistenceTests.belongs_to_a_company" executed="True" result="Success" success="True" time="0.047" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RolePersistenceTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.RolePersistenceTests.belongs_to_a_module" executed="True" result="Success" success="True" time="0.078" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SaasuComponentsPersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.SaasuComponentsPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SMSPersistenceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.SMSPersistenceTests.is_mapped" executed="True" result="Success" success="True" time="0.047" asserts="7" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="UserPersistenceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.UserPersistenceTests.belongs_to_an_account" executed="True" result="Success" success="True" time="0.016" asserts="7" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="UserRolePersistenceTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Mappings.UserRolePersistenceTests.belongs_to_a_user_and_a_role" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="Repositories" executed="True" result="Success" success="True" time="1.406" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AccountsRepositoryTests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.AccountsRepositoryTests.can_find_active_accounts_by_accounting_system" executed="True" result="Success" success="True" time="0.125" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.AccountsRepositoryTests.can_find_one_by_userid" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ActionsRepositoryTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ActionsRepositoryTests.can_find_all_for_account" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CashFlowBuilderRoleProviderTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CashFlowBuilderRoleProviderTests.can_get_roles_for_user" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommentsRepositoryTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CommentsRepositoryTests.can_find_comments_for_company" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CompaniesRepositoryTests" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.can_create_a_new_company" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.can_get_a_count_of_companies_for_an_account" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.can_update_an_existing_company" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.should_limit_to_max_results" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.should_restrict_to_account" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.CompaniesRepositoryTests.should_return_null_if_no_criteria" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ConfidencePredictorsRepositoryTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ConfidencePredictorsRepositoryTests.something" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ContactsRepositoryTests" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.can_create_a_new_contact" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.can_find_all_active_for_company" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.can_find_all_for_company" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.can_update_an_existing_company" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.create_contact_should_have_persisted_company" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.valid_sms_contacts_should_belong_to_a_company" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.valid_sms_contacts_should_have_a_mobile_number" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.ContactsRepositoryTests.valid_sms_contacts_should_have_a_mobile_number_of_valid_form" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailStrategyStepsRepositoryTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.EmailStrategyStepsRepositoryTests.can_find_steps_for_strategy" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmailTemplatesRepositoryTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.EmailTemplatesRepositoryTests.can_find_by_account_and_usage" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.EmailTemplatesRepositoryTests.can_find_templates_for_account" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.EmailTemplatesRepositoryTests.can_find_templates_for_account_and_name" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InvoiceRecoveryStepRepositoryTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoiceRecoveryStepRepositoryTests.can_find_steps_in_date_range_for_account" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="InvoicesRepositoryTests" executed="True" result="Success" success="True" time="0.250" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_find_all_for_company" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_get_count_for_strategy" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_get_count_of_views_for_account" executed="True" result="Success" success="True" time="0.047" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_get_count_of_views_for_account_filtered_by_company_name" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_get_count_of_views_for_account_filtered_by_invoice_identifier" executed="True" result="Success" success="True" time="0.031" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.can_get_views_for_account_filtered_by_company_name" executed="True" result="Success" success="True" time="0.047" asserts="4" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.should_return_account_priority_amount_if_greater_than_0" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.should_return_empty_if_no_ids_provided" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.InvoicesRepositoryTests.should_return_empty_if_null_ids_provided" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="M_CompaniesRepositoryTests" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.M_CompaniesRepositoryTests.can_save_a_mongo_company" executed="True" result="Success" success="True" time="0.141" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="M_CorrespondenceRepositoryTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.M_CorrespondenceRepositoryTests.can_find_correspondence_for_invoice" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.M_CorrespondenceRepositoryTests.can_find_correspondence_for_invoice_if_has_multiple_elements" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RoleRepositoryTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.RoleRepositoryTests.can_get_role_names_for_userid" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SaasuComponentsRepositoryTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.SaasuComponentsRepositoryTests.can_get_a_component" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="UserRepositoryTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.UserRepositoryTests.can_find_unique_by_email_and_account_name" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.UserRepositoryTests.CanFindActiveUser" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.UserRepositoryTests.find_one_by_email" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="UserRolesRepositoryTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Data.Repositories.UserRolesRepositoryTests.can_find_all_user_roles_for_a_user" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Models" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="HistoricalDebtorDaysInterpolator_Tests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Models.HistoricalDebtorDaysInterpolator_Tests.can_interpolate_2_consecutive_values" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                      <test-case name="CashFlowBuilder.Tests.Models.HistoricalDebtorDaysInterpolator_Tests.can_interpolate_2_values" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                      <test-case name="CashFlowBuilder.Tests.Models.HistoricalDebtorDaysInterpolator_Tests.can_interpolate_an_empty_list" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.HistoricalDebtorDaysInterpolator_Tests.can_interpolate_more_than_2_values" executed="True" result="Success" success="True" time="0.000" asserts="19" />
+                      <test-case name="CashFlowBuilder.Tests.Models.HistoricalDebtorDaysInterpolator_Tests.interpolating_a_single_value_should_only_return_1_value" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="PagerTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.current_page_can_never_be_less_than_1" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.current_page_can_never_exceed_number_of_pages" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.page_count_with_no_remainder_items" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.page_count_with_remainder_items" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.paging_not_required_if_items_same_as_page_size" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.paging_required_if_more_items_than_page_size" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="CashFlowBuilder.Tests.Models.PagerTests.skip_count_should_never_be_less_than_zero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="0.313" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ActionFilters" executed="True" result="Success" success="True" time="0.313" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="RequiresAgreedToTermsAndConditionsTests" executed="True" result="Success" success="True" time="0.250" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Web.ActionFilters.RequiresAgreedToTermsAndConditionsTests.should_do_nothing_if_not_authenticated" executed="True" result="Success" success="True" time="0.078" asserts="0" />
+                          <test-case name="CashFlowBuilder.Tests.Web.ActionFilters.RequiresAgreedToTermsAndConditionsTests.should_show_terms_and_conditions_if_not_yet_agreed" executed="True" result="Success" success="True" time="0.156" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RequiresCompanyByAuthTokenTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="CashFlowBuilder.Tests.Web.ActionFilters.RequiresCompanyByAuthTokenTests.should_throw_if_auth_token_not_provided" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                          <test-case name="CashFlowBuilder.Tests.Web.ActionFilters.RequiresCompanyByAuthTokenTests.should_throw_if_company_not_found" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

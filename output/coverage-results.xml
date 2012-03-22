@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Modules>
+    <Module skippedDueTo="Filter" hash="88-C1-36-86-CB-BF-79-B5-D6-D5-C1-48-9C-24-A7-EC-35-BD-F9-5D">
+      <FullName>C:\WINDOWS\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-04-A8-31-CD-FB-23-72-95-63-5D-14-9A-A0-66-8E-7F-44-93-7A">
+      <FullName>C:\WINDOWS\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="92-C0-17-48-3A-C8-B2-04-3A-8F-DC-48-CF-CB-A0-96-B1-C3-52-28">
+      <FullName>C:\Projects\tddkatas\tools\nunit\nunit-console.exe</FullName>
+      <ModuleName>nunit-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-30-2E-50-36-FB-60-2C-8E-50-C0-83-54-8B-CC-EA-A8-91-B6-CC">
+      <FullName>C:\WINDOWS\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="CD-8F-3E-EA-45-BE-8C-09-BD-0B-DB-2D-88-BE-6B-FE-FC-18-D7-E2">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7E-2B-49-65-5C-3F-FC-25-40-4D-A9-FC-3A-AB-C8-68-B3-4C-3A-BD">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="63-D6-EF-50-5E-32-CE-8B-BC-ED-ED-FC-FD-E0-86-F1-B8-2A-72-37">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit-console-runner.dll</FullName>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5B-B8-1B-23-5E-BF-05-25-BD-98-76-9C-10-CA-0E-CF-77-F5-53-6F">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-32-53-5C-22-A1-08-F4-F7-AF-64-1D-21-26-5E-C2-8D-61-84-A8">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B6-6B-23-3C-0B-0A-C4-91-68-2C-EB-4E-B5-65-BE-DC-49-87-50-10">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.util.dll</FullName>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-47-58-86-25-5E-05-7F-11-65-CA-35-5F-86-9C-1E-D0-47-AB-CE">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="10-93-7B-6F-E5-53-16-F4-95-3C-78-EE-F3-E7-A2-42-5C-D2-16-97">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-DE-AF-37-5F-05-E2-60-17-07-9C-F0-C8-9F-FF-58-5C-68-55-B3">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A9-96-07-DC-26-EE-F2-9F-4F-33-75-09-A7-A3-4B-2D-84-B9-14-38">
+      <FullName>C:\Projects\tddkatas\tools\nunit\nunit-agent.exe</FullName>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="CD-8F-3E-EA-45-BE-8C-09-BD-0B-DB-2D-88-BE-6B-FE-FC-18-D7-E2">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-DC-F9-F1-87-98-EC-84-5E-24-FC-D8-D7-C0-DF-F3-0E-98-10-5A">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B6-6B-23-3C-0B-0A-C4-91-68-2C-EB-4E-B5-65-BE-DC-49-87-50-10">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.util.dll</FullName>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-47-58-86-25-5E-05-7F-11-65-CA-35-5F-86-9C-1E-D0-47-AB-CE">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-47-7A-41-67-F7-5A-91-1D-B2-1A-48-85-F5-81-AF-DE-91-B4-C2">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-CB-9C-23-A1-28-3F-24-11-C3-EA-99-78-1C-2D-0A-DE-D5-1F-6E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-A8-30-6A-DC-BE-8C-9B-BD-92-91-1C-99-38-50-76-B2-A8-6D-DB">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-35-F8-EC-BF-8C-A5-BC-AA-72-D8-9A-6D-DC-66-CE-60-18-EC-F9">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C7-D7-70-D9-50-4D-95-73-53-5E-60-A4-2B-62-2D-69-A2-69-87-58">
+      <FullName>C:\WINDOWS\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="CD-8F-3E-EA-45-BE-8C-09-BD-0B-DB-2D-88-BE-6B-FE-FC-18-D7-E2">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-DC-F9-F1-87-98-EC-84-5E-24-FC-D8-D7-C0-DF-F3-0E-98-10-5A">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-CB-9C-23-A1-28-3F-24-11-C3-EA-99-78-1C-2D-0A-DE-D5-1F-6E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-A8-30-6A-DC-BE-8C-9B-BD-92-91-1C-99-38-50-76-B2-A8-6D-DB">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="78-47-58-86-25-5E-05-7F-11-65-CA-35-5F-86-9C-1E-D0-47-AB-CE">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="4D-E9-32-4D-EF-61-51-AA-72-56-8A-5A-3B-1B-DC-8A-0A-15-F0-A4">
+      <FullName>C:\Documents and Settings\Byron\Local Settings\Temp\nunit20\ShadowCopyCache\7040_634680880444982303\Tests_838658046\assembly\dl3\1017230f\008b85f1_7108cd01\tests.DLL</FullName>
+      <ModuleName>Tests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\Projects\tddkatas\Tests\TestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <FullName>Tests.TestClass</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Tests.TestClass::should_be_0_if_empty_string_inputted(System.String,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" uspid="1" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" />
+                <SequencePoint vc="12" uspid="2" ordinal="1" offset="1" sl="27" sc="13" el="27" ec="51" />
+                <SequencePoint vc="12" uspid="3" ordinal="2" offset="13" sl="28" sc="13" el="28" ec="55" />
+                <SequencePoint vc="12" uspid="4" ordinal="3" offset="36" sl="29" sc="9" el="29" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="12" uspid="1" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Tests.TestClass::does_int_parse_remove_newline_chars()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="5" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" />
+                <SequencePoint vc="1" uspid="6" ordinal="1" offset="1" sl="34" sc="13" el="34" ec="60" />
+                <SequencePoint vc="1" uspid="7" ordinal="2" offset="34" sl="35" sc="13" el="35" ec="60" />
+                <SequencePoint vc="1" uspid="8" ordinal="3" offset="67" sl="36" sc="9" el="36" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="5" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Tests.TestClass::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="9" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <FullName>Tests.Calculator</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="3" sequenceCoverage="100" branchCoverage="75" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Int32 Tests.Calculator::Add(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" uspid="10" ordinal="0" offset="0" sl="45" sc="38" el="45" ec="39" />
+                <SequencePoint vc="12" uspid="11" ordinal="1" offset="1" sl="46" sc="13" el="46" ec="33" />
+                <SequencePoint vc="12" uspid="12" ordinal="2" offset="7" sl="47" sc="13" el="47" ec="48" />
+                <SequencePoint vc="12" uspid="13" ordinal="3" offset="15" sl="49" sc="13" el="49" ec="25" />
+                <SequencePoint vc="12" uspid="14" ordinal="4" offset="17" sl="51" sc="13" el="51" ec="20" />
+                <SequencePoint vc="12" uspid="15" ordinal="5" offset="18" sl="51" sc="37" el="51" ec="44" />
+                <SequencePoint vc="26" uspid="16" ordinal="6" offset="28" sl="51" sc="22" el="51" ec="33" />
+                <SequencePoint vc="26" uspid="17" ordinal="7" offset="41" sl="51" sc="46" el="51" ec="47" />
+                <SequencePoint vc="26" uspid="18" ordinal="8" offset="42" sl="52" sc="17" el="52" ec="47" />
+                <SequencePoint vc="26" uspid="19" ordinal="9" offset="56" sl="53" sc="13" el="53" ec="14" />
+                <SequencePoint vc="38" uspid="20" ordinal="10" offset="57" sl="51" sc="34" el="51" ec="36" />
+                <SequencePoint vc="12" uspid="21" ordinal="11" offset="102" sl="55" sc="13" el="55" ec="24" />
+                <SequencePoint vc="12" uspid="22" ordinal="12" offset="107" sl="56" sc="9" el="56" ec="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="12" uspid="23" ordinal="0" offset="68" path="0" />
+                <BranchPoint vc="26" uspid="24" ordinal="1" offset="68" path="1" />
+                <BranchPoint vc="0" uspid="25" ordinal="2" offset="90" path="0" />
+                <BranchPoint vc="12" uspid="26" ordinal="3" offset="90" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="12" uspid="10" ordinal="0" offset="0" sl="45" sc="38" el="45" ec="39" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Text.RegularExpressions.Regex Tests.Calculator::Regex()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" uspid="27" ordinal="0" offset="0" sl="59" sc="9" el="59" ec="10" />
+                <SequencePoint vc="12" uspid="28" ordinal="1" offset="1" sl="60" sc="13" el="60" ec="45" />
+                <SequencePoint vc="12" uspid="29" ordinal="2" offset="12" sl="61" sc="13" el="61" ec="26" />
+                <SequencePoint vc="12" uspid="30" ordinal="3" offset="16" sl="62" sc="9" el="62" ec="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="12" uspid="27" ordinal="0" offset="0" sl="59" sc="9" el="59" ec="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void Tests.Calculator::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="12" uspid="31" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="25-C6-6A-D9-19-38-FD-49-FB-28-2C-4E-AF-76-25-8F-0E-3E-48-DE">
+      <FullName>C:\Documents and Settings\Byron\Local Settings\Temp\nunit20\ShadowCopyCache\7040_634680880444982303\Tests_838658046\assembly\dl3\4a43d933\0086ac40_50f0cc01\nunit.framework.DLL</FullName>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="63-D6-EF-50-5E-32-CE-8B-BC-ED-ED-FC-FD-E0-86-F1-B8-2A-72-37">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\nunit-console-runner.dll</FullName>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-47-7A-41-67-F7-5A-91-1D-B2-1A-48-85-F5-81-AF-DE-91-B4-C2">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="39-50-27-F2-13-CF-87-27-D8-C7-D2-F2-F0-21-54-32-84-9F-17-4B">
+      <FullName>C:\Projects\tddkatas\tools\nunit\lib\log4net.dll</FullName>
+      <ModuleName>log4net</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

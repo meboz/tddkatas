@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+using System.Threading;
 using NUnit.Framework;
 
 namespace Tests {
@@ -27,7 +24,7 @@ namespace Tests {
         [TestCase("11;;;2;;;3",16)]
         public void should_be_0_if_empty_string_inputted(string input, int expectedSum)
         {
-            var sum = Add(input);
+            var sum = new Calculator().Add(input);
             Assert.That(sum, Is.EqualTo(expectedSum));
         }
 
@@ -38,19 +35,30 @@ namespace Tests {
             Assert.That(int.Parse("23\n"), Is.EqualTo(23));
         }
 
-        private int Add(string input)
-        {
-            var regex = new Regex(@"(\d+)");
+       
+
+        
+    }
+
+    public class Calculator
+    {
+        public int Add(string input) {
+            var regex = Regex();
             var matches = regex.Matches(input);
 
             var sum = 0;
 
-            foreach (Match match in matches)
-            {
+            foreach (Match match in matches) {
                 sum += int.Parse(match.Value);
             }
 
             return sum;
+        }
+
+        private static Regex Regex()
+        {
+            var regex = new Regex(@"(\d+)");
+            return regex;
         }
     }
 }

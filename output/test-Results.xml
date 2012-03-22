@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="..\output\tests.dll" total="13" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-03-23" time="08:27:26">
+  <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.3625" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Projects\tddkatas\output" machine-name="MCBOZ" user="Byron" user-domain="MCBOZ" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="..\output\tests.dll" executed="True" result="Success" success="True" time="0.188" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestClass" executed="True" result="Success" success="True" time="0.156" asserts="0">
+            <results>
+              <test-case name="Tests.TestClass.does_int_parse_remove_newline_chars" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+              <test-suite type="ParameterizedTest" name="should_be_0_if_empty_string_inputted" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                <results>
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;11;;;2;;;3&quot;,16)" executed="True" result="Success" success="True" time="0.078" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;0&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;2&quot;,2)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1,2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1,2,3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1\n,2,3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1:2:3&quot;,6)" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1::2::3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1:::2:::3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Tests.TestClass.should_be_0_if_empty_string_inputted(&quot;1;;;2;;;3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

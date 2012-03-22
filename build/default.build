@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<project name="TddKata" basedir=".." default="build">
+    <property name="nant.settings.currentframework" value="net-4.0" />
+    <property name="project.dir" value="${project::get-base-directory()}\" />
+    <property name="project.name" value="${project::get-name()}\" />
+    
+    <target name="build" depends="clean compile test"/>
+    
+    <target name="clean" >
+        <delete dir="${project::get-base-directory()}/output/" />
+    </target>
+    
+	<target name="compile" depends="clean">
+        <property name="cmd_args" value="&quot;${project::get-base-directory()}/${project::get-name()}.sln&quot; /property:OutDir=&quot;${project::get-base-directory()}/output/&quot;" />
+        <exec commandline="${cmd_args}" program="c:\windows\microsoft.net\framework\v4.0.30319\msbuild.exe" ></exec>
+    </target>
+
+    <target name="test" >
+        <exec program="tools\opencover\opencover.console.exe" workingdir="${project.dir}\output" 
+              commandline="-register:user -target:..\tools\nunit\nunit-console.exe -targetargs:&quot;..\output\tests.dll /xml=test-Results.xml /framework=4.0.30319&quot; -output:coverage-results.xml">
+        </exec>
+    </target>    
+</project>
